@@ -1,0 +1,13 @@
+.esgotado{
+    background-color: red;
+    color: white;
+}
+span{
+    font-weight: bold;
+    background-color: lawngreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+li{
+    margin: 10px 0;
+}
