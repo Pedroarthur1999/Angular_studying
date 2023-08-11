@@ -1,0 +1,5 @@
+<p>font-size works!</p>
+<button type="button" (click)="increaseFont()">+</button>
+<button type="button" (click)="decreaseFont()">-</button>
+<input type="text" [(ngModel)]="textoDigitado">
+<p [style.font-size.px]="fontSized">{{textoDigitado}}</p>

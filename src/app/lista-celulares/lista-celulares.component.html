@@ -1,10 +1,13 @@
 <p>Renderizando lista de celulares </p>
-
-<ul>
-    <li *ngFor="let celular of celulares">
-        <strong>{{celular.nome}}</strong>
-        <p>{{celular.descricao}}</p>
-        <span [ngClass]="celular.esgotado ? 'esgotado' : '' ">{{celular.esgotado? "Esgotado!" : "Disponivel"}}</span>
-
-    </li>
-</ul>
+<div class="phone-card">
+    
+    <ul>
+        <li *ngFor="let celular of celulares">
+            <strong>{{celular.nome}}</strong>
+            <p>{{celular.descricao}}</p>
+            <span [ngClass]="celular.esgotado ? 'esgotado' : '' ">{{celular.esgotado? "Esgotado!" : "Disponivel"}}</span>
+            <img [src]="celular.photo" width="200">
+    
+        </li>
+    </ul>
+</div>

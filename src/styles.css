@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    
+}
+
+input{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.459);
+    border-radius: 2px;
+    height: 25px;
+}
+button{
+    padding: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}

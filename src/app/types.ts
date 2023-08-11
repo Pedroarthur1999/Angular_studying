@@ -3,4 +3,5 @@ export interface Celular {
   nome: string;
   descricao: string;
   esgotado: boolean;
+  photo:string
 }
